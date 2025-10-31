@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <div class="container">
+    <h4>FAQ</h4><br>
+    <div id="accordion">
+        <div class="card">
+            <div class="card-header">
+                <a class="card-link" data-toggle="collapse" href="#collapse1">
+                    How can I contact customer support?
+                </a>
+            </div>
+            <div id="collapse1" class="collapse" data-parent="#accordion">
+                <div class="card-body">You can reach our customer support team 24/7 via email at support@company.com
+                    or through our Help Center chat. We aim to respond to all queries within 24 hours.</div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-header">
+                <a class="collapsed card-link" data-toggle="collapse" href="#collapse2">
+                    How do I track my order or service request?
+                </a>
+            </div>
+            <div id="collapse2" class="collapse" data-parent="#accordion">
+                <div class="card-body">Simply log in to your account and go to the “My Orders” section. There, you can view your order history and live tracking updates in real time.</div>
+            </div>
+        </div><br>
+        <div class="card" style="width: 400px;">
+            <div class="card-body">
+                <h4 class="card-title">Mr. John Doe</h4>
+                <p class="card-text">Manager</p>
+                <div class="dropdown">
+                    <button type="button" class="btn btn-info dropdown-toggle" data-toggle="dropdown">Quick actions</button>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="#">Call</a>
+                        <a class="dropdown-item" href="#">Email</a>
+                        <a  class="dropdown-item" href="#">Message</a>
+                    </div>
+                </div>
+            </div>
+        </div><br>
+         <div class="card" style="width: 400px;">
+            <div class="card-body">
+                <h4 class="card-title">Ms. Jane Doe</h4>
+                <p class="card-text">Asst. Manager</p>
+                <div class="dropdown">
+                    <button type="button" class="btn btn-info dropdown-toggle" data-toggle="dropdown">Quick actions</button>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="#">Call</a>
+                        <a class="dropdown-item" href="#">Email</a>
+                        <a  class="dropdown-item" href="#">Message</a>
+                    </div>
+                </div>
+            </div>
+        </div><br>
+         <div class="card" style="width: 400px;">
+            <div class="card-body">
+                <h4 class="card-title">Mr. Jake Smith</h4>
+                <p class="card-text">Sales executive</p>
+                <div class="dropdown">
+                    <button type="button" class="btn btn-info dropdown-toggle" data-toggle="dropdown">Quick actions</button>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="#">Call</a>
+                        <a class="dropdown-item" href="#">Email</a>
+                        <a  class="dropdown-item" href="#">Message</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
